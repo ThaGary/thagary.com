@@ -17,21 +17,8 @@
     padding: 20px;
     text-align: center;
 }
-.container1 
-{
-	width: 70%;
-	height: auto;
-	margin: auto;
-	padding: 10px;
-}
-.one {
-	width: 350px;
-	height: auto;
-	float: left;
-}
-.two {
-	margin-left: 35%;
-	height: auto;
+.body {
+  background-color: #6441a5;
 }
 .social img {
     height: auto;
