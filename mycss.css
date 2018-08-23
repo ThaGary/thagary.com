@@ -12,19 +12,15 @@
     color: #6441a5;
     text-align: center;
 }
-p {
-  color: white;
-}
-h2 {
-  color: white;
-}
 .header {
     background-color: #f1f1f1;
     padding: 20px;
     text-align: center;
+    color: #6441a5
 }
 .body {
   background-color: #6441a5;
+  color: white;
 }
 .social img {
     height: auto;
@@ -38,13 +34,15 @@ h2 {
     border: 4px solid #fff;
     cursor:pointer;
 }
+h1 {
+  color: #6441a5
+}
 .nav{
-    border:1px solid #ccc;
+    border:0px solid #ccc;
     border-width:1px 0;
     list-style:none;
     margin:0;
     padding:0;
-    text-align:right;
 }
 .nav li{
     display:inline;
