@@ -39,7 +39,7 @@ h1 {
 }
 .nav{
     border:0px solid #ccc;
-    border-width:1px 0;
+    border-width:0px 0;
     list-style:none;
     margin:0;
     padding:0;
@@ -119,10 +119,11 @@ a:active {
 }
 a:link {
     color: white;
+    font-style: italic;
 }
 a:visited {
     color: white;
 }
 a:hover {
-    color: yellow;
+    color: white;
 }
