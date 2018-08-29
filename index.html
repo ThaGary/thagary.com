@@ -1,54 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-	<title>Tha Gary</title>
-	<link rel="stylesheet" type="text/css" href="mycss.css">
-	<link rel="icon" href="https://i.imgur.com/YyPVn8l.png">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Tha Gary</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Jua" rel="stylesheet">
 </head>
-<div class="header">
-<h1> Gary Anderson </h1>
-</div>
-<!-- Body -->
-<main class="body">
-		<ul class="nav">
-			<li><a href="index.html">Home</a></li>
-			<li><a href="commission.html">Commission</a></li>
-			<li><a href="resume.html">Resume</a></li>  
-		</ul>
-	<div class="container">
-		<div class="row">
-			<div class="col">
-				<img class="picture-of-me" src="media/me.jpg" width="400" alt="picture of me">
-			</div>
-			<div class="col">
-			<h2>About Me</h2>
-			<p>My name is Gary! I'm currently learning code at Galvanize. I am from Galesburg IL aka a cornfield. I am a USN Veteran, I was honorably discharged as EM2(SW). I was stationed in Guam for 4 years but spent most of my time out at sea and in various countries in Asia. I like to snowboard, hike, and play with dogs. I have always been interested with code ever since I customized my Myspace page for the first time. I spend a lot of my free time on <a href="https://twitch.tv">Twitch</a> doing Community/Event Moderation. I have a verified TwitchBot (which means I can send 7500 messages in chat every 30 seconds) and I have a few scripts running in many chats across the platform with the help of my good friend <a href="https://twitter.com/Technoblazed">Techno</a>. I learned how to add my Twitch account to a script to connect with the chat client so that my account would automatically send thank you messages to new channel subscribers and donators for broadcasters. My goal is to work full time for a gaming company as a member of their web/software team.</p>
-			</div>
-			</div>
-		</div>
-	
-<!-- Social Media -->
-<div class="social">
-	<div class="d-flex justify-content-center">
-		<a href="twitter"><img src="media/twitter1.png" width="150" alt="twitter"></a>
-		<a href="https://t.co/12Z1nkLxPI"><img src="media/message1.png" width="150" alt="Direct Messages"></a>
-		<a href="twitch"><img src="media/twitch1.png" width="150" alt="twitch"></a>
-		<a href="steam"><img src="media/steam1.png" width="150" alt="steam"></a>
-		<a href="discord"><img src="media/discord1.png" width="150" alt="discord"></a>
-	</div>
-</div>
-<!-- javascript -->
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
-</main>
-<!-- body end -->
+<body class="bg-secondary">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#"><img src="media/my-avi.png" height="30px" width="auto"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="commission.html">Commissions</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="resume.html">Resume</a>
+        </li>
+      </ul>
+      <span class="navbar-text">
+        Web Developer
+      </span>
+    </div>
+  </nav>
+  <main>
+    <div class="container my-3">
+      <div class="media">
+        <div class="card mb-3 bg-dark">
+          <div class="card-body border-info">
+            <div class="media">
+              <img class="align-self-center mr-3" src="media/me.jpg" height="300" width="auto" alt="pic of me">
+              <div class="media-body text-white">
+                <h1>Gary Anderson</h1>
+                <h4>Web Developer</h4>
+                <p>My name is Gary! I'm currently learning code at Galvanize. I am from Galesburg IL aka a cornfield. I
+                  am a USN Veteran, I was honorably discharged as EM2(SW). I was stationed in Guam for 4 years but
+                  spent most of my time out at sea and in various countries in Asia. I like to snowboard, hike, and play with dogs. I have always been interested with code ever since I customized my Myspace page for the first
+                  time. I spend a lot of my free time on <a href="https://twitch.tv" class="text-white">Twitch</a>
+                  doing Community/Event Moderation. I have a verified TwitchBot (which means I can send 7500 messages
+                  in chat every 30 seconds) and I have a few scripts running in many chats across the platform with the
+                  help of my good friend <a href="https://twitter.com/Technoblazed" class="text-white">Techno</a>. I
+                  learned how to add my Twitch account to a script to connect with the chat client so that my account
+                  would send thank you messages to new channel subscribers and donators for broadcasters. My goal is to
+                  work full time for a gaming company as a member of their web/software team.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
 
-<!-- footer -->
-<div class="footer">Website made by Gary Anderson</div>
-<!-- footer -->
+  <!-- Footer -->
+  <footer class="footer fixed-bottom bg-dark justify-content-end col-12">
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3 text-white">Follow my social media:
+      <a href="https://thagary.com">ThaGary.com</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+
+
+</body>
+
 </html>
