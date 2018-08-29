@@ -1,82 +1,12 @@
-nav .nav-item {
-    font-family: 'Indie Flower', cursive;
+nav, footer {
+    font-family: 'Indie Flower' !important;
 }
-main h4, main h1, body, footer  {
-    font-family: 'Jua';
-}
-.media-body p {
-    font-family: 'Jua';
+body {
+    font-family: 'Mirza' !important;
+    height: 1000px;
 }
 .fixedbutton {
     position: fixed;
     bottom: 7%;
     right: 0.1%; 
 }
-@-webkit-keyframes bg-animation {
-    0% {
-      background-color: green;
-    }
-    15% {
-      background-color: blue;
-    }
-    30% {
-      background-color: purple;
-    }
-    45% {
-      background-color: pink;
-    }
-    60% {
-      background-color: brown;
-    }
-    75% {
-      background-color: red;
-    }
-    90% {
-      background-color: yellow;
-    }
-    100% {
-      background-color: green;
-    }
-  }
-  
-  @keyframes bg-animation {
-    0% {
-      background-color: yellow;
-    }
-    15% {
-      background-color: green;
-    }
-    30% {
-      background-color: blue;
-    }
-    45% {
-      background-color: purple;
-    }
-    60% {
-      background-color: pink;
-    }
-    75% {
-      background-color: brown;
-    }
-    90% {
-      background-color: red;
-    }
-    100% {
-      background-color: yellow;
-    }
-  }
-  
-  a:active {
-      color: white;
-  }
-  a:link {
-      color: white;
-      font-style: italic;
-  }
-  a:visited {
-      color: white;
-  }
-  a:hover {
-      color: white;
-  }
-  
