@@ -3,10 +3,35 @@ nav, footer {
 }
 body {
     font-family: 'Mirza' !important;
-    height: 1000px;
+    height: auto;
 }
 .fixedbutton {
     position: fixed;
     bottom: 7%;
     right: 0.1%; 
+}
+.small-cards{
+    animation: fadeUp 2s;
+}
+.big-card {
+    animation: slideIn 2s;
+}
+@keyframes fadeUp {
+    0% {
+        transform: translateY(300px)
+    }
+    100% {
+        transform: translateY(auto)
+    }
+}
+@keyframes slideIn {
+    0% {
+        transform: translateX(-1500px)
+    }
+    100% {
+        transform: translateX(auto)
+    }
+}
+::-webkit-scrollbar { 
+    display: none; 
 }
