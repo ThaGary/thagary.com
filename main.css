@@ -18,6 +18,9 @@ body {
     bottom: 7%;
     right: 0.1%; 
 }
+.ditto {
+    width: auto;
+}
 .picture {
     width: auto;
 }
