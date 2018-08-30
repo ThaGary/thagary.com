@@ -18,6 +18,12 @@ body {
     bottom: 7%;
     right: 0.1%; 
 }
+.picture {
+    width: auto;
+}
+.commission-pic {
+    width: auto;
+}
 .small-cards{
     animation: fadeUp 2s, ease-in-out;
 }
