@@ -4,6 +4,11 @@ nav, footer {
 body {
     font-family: 'Mirza' !important;
     height: auto;
+    text-overflow: ellipsis;
+}
+.container1 {
+    display: flex;
+    justify-content: center;
 }
 .fixedbutton {
     position: fixed;
@@ -13,12 +18,16 @@ body {
 .small-cards{
     animation: fadeUp 2s, ease-in-out;
 }
+.social-cards {
+    animation: slideInRight 2s;
+    height: 350px;
+}
 .big-card {
     animation: slideIn 2s, ease-in-out;
 }
 @keyframes fadeUp {
     0% {
-        transform: translateY(300px)
+        transform: translateY(900px)
     }
     100% {
         transform: translateY(auto)
@@ -31,6 +40,18 @@ body {
     100% {
         transform: translateX(auto)
     }
+}
+@keyframes slideInRight {
+    0% {
+        transform: translateX(1500px)
+    }
+    100% {
+        transform: translateX(auto)
+    }
+}
+main .media-body img {
+    width: 100%;
+    height: auto;
 }
 ::-webkit-scrollbar { 
     display: none; 
