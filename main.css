@@ -5,7 +5,7 @@ body {
     font-family: 'Mirza' !important;
     height: auto;
     text-overflow: ellipsis;
-    width: 100vm;
+    width: 100vw;
 }
 .container1 {
     display: flex;
@@ -34,6 +34,15 @@ body {
 .social-cards i {
     display: flex;
     justify-content: center;
+}
+.active {
+    text-shadow: 2px 2px 3px black;
+}
+.list-group {
+    width: 150px;
+}
+h1 {
+    text-shadow: 2px 2px 4px Black;
 }
 @keyframes fadeUp {
     0% {
