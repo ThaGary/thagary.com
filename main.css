@@ -5,6 +5,7 @@ body {
     font-family: 'Mirza' !important;
     height: auto;
     text-overflow: ellipsis;
+    width: 100vm;
 }
 .container1 {
     display: flex;
@@ -20,10 +21,19 @@ body {
 }
 .social-cards {
     animation: slideInRight 2s;
-    height: 350px;
 }
 .big-card {
     animation: slideIn 2s, ease-in-out;
+}
+.card-header a {
+    color: white;
+}
+.card-header:hover {
+    font-style: italic;
+}
+.social-cards i {
+    display: flex;
+    justify-content: center;
 }
 @keyframes fadeUp {
     0% {

@@ -4,4 +4,4 @@
 ![](1.jpg)
 
 ## Screenshot of site
-![](2.jpg)
+![](https://snag.gy/BjEuLZ.jpg)
