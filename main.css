@@ -6,6 +6,8 @@ body {
     height: auto;
     text-overflow: ellipsis;
     width: 100vw;
+    background-image: url("media/background.gif");
+    background-repeat: repeat;
 }
 .container1 {
     display: flex;
