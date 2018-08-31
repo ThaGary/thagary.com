@@ -17,7 +17,10 @@
 nav, footer {
     font-family: 'Indie Flower' !important;
 }
-
+.media-body a:hover, .social-cards a:hover {
+    color: white;
+    text-shadow: 1px 1px 10px lightblue !important;
+}
 body {
     font-family: 'Mirza' !important;
     height: auto;
@@ -26,6 +29,9 @@ body {
     overflow-x: hidden;
     background-image: url("http://i.stack.imgur.com/tQTRW.gif");
     background-repeat: repeat;
+}
+body a:hover {
+    text-decoration: none;
 }
 html {
     width: 100vw;
@@ -66,7 +72,7 @@ html {
     text-shadow: 2px 2px 3px black;
 }
 .list-group {
-    width: 120px;
+    width: 70px;
 }
 main .ditto img {
     width: 600px;
@@ -76,26 +82,32 @@ h1 {
 }
 @keyframes fadeUp {
     0% {
-        transform: translateY(900px)
+        transform: translateY(900px);
+        opacity: 0;
     }
     100% {
-        transform: translateY(auto)
+        transform: translateY(auto);
+        opacity: 1;
     }
 }
 @keyframes slideIn {
     0% {
-        transform: translateX(-1500px)
+        transform: translateX(-1500px);
+        opacity: 0;
     }
     100% {
-        transform: translateX(auto)
+        transform: translateX(auto);
+        opacity: 1;
     }
 }
 @keyframes slideInRight {
     0% {
-        transform: translateX(1500px)
+        transform: translateX(1500px);
+        opacity: 0;
     }
     100% {
-        transform: translateX(auto)
+        transform: translateX(auto);
+        opacity: 1;
     }
 }
 main .media-body img {
