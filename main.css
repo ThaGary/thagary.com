@@ -2,6 +2,12 @@
     .small-picture {
       display: none;
     }
+    main iframe {
+        width: 100vw;
+    }
+    ::-webkit-scrollbar { 
+        display: inline; 
+    }
   }
 @media screen and (max-width: 600px) {
     .large-picture {
@@ -26,6 +32,7 @@ body {
     height: auto;
     text-overflow: ellipsis;
     width: 100vw;
+    height: 100vh;
     overflow-x: hidden;
     background-image: url("http://i.stack.imgur.com/tQTRW.gif");
     background-repeat: repeat;
@@ -53,7 +60,7 @@ html {
     animation: fadeUp 2s, ease-in-out;
 }
 .social-cards {
-    animation: slideInRight 2s;
+    animation: fadeUp 2s;
 }
 .big-card {
     animation: slideIn 2s, ease-in-out; 
