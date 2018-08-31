@@ -1,32 +1,19 @@
-@media screen and (max-width: 600px) {
-    .small-picture {
-      display: none;
-    }
-    main iframe {
-        width: 100vw;
-    }
-    ::-webkit-scrollbar { 
-        display: inline; 
-    }
-  }
-@media screen and (max-width: 600px) {
-    .large-picture {
-      display: inline;
-      width: 200px;
-    }
-  }
-@media screen and (min-width: 600px) {
-    .large-picture {
-        display: none;
-    }
-  }
-nav, footer {
+nav,
+footer {
     font-family: 'Indie Flower' !important;
+    z-index: 2;
 }
-.media-body a:hover, .social-cards a:hover {
+
+.media-body a:hover,
+.social-cards a:hover {
     color: white;
     text-shadow: 1px 1px 10px lightblue !important;
 }
+
+.navbar-text {
+    text-shadow: 0px 0px 20px lightblue;
+}
+
 body {
     font-family: 'Mirza' !important;
     height: auto;
@@ -37,90 +24,182 @@ body {
     background-image: url("http://i.stack.imgur.com/tQTRW.gif");
     background-repeat: repeat;
 }
+
 body a:hover {
     text-decoration: none;
 }
+
 html {
     width: 100vw;
     overflow-x: hidden;
 }
+
 .container1 {
     display: flex;
     justify-content: center;
 }
+
 .fixedbutton {
     position: fixed;
     bottom: 7%;
-    right: 0.1%; 
+    right: 0.1%;
 }
+
 .commission-pic {
     width: auto;
 }
-.small-cards{
-    animation: fadeUp 2s, ease-in-out;
+
+.small-cards {
+    animation: slideUp 2s, ease-in-out;
 }
+
 .social-cards {
-    animation: fadeUp 2s;
+    animation: slideUp 2s;
 }
+
 .big-card {
-    animation: slideIn 2s, ease-in-out; 
+    animation: slideIn 2s, ease-in-out;
 }
+
 .card-header a {
     color: white;
 }
+
 .card-header:hover {
     font-style: italic;
 }
+
 .social-cards i {
     display: flex;
     justify-content: center;
 }
+
 .active {
     text-shadow: 2px 2px 3px black;
 }
+
 .list-group {
     width: 70px;
 }
-main .ditto img {
+
+main .ditto {
     width: 600px;
 }
+
+main .small-ditto {
+    width: 100px;
+}
+
+.ditto {
+    animation: slideDown 2s, ease-out;
+    z-index: -100;
+}
+
+.small-ditto {
+    animation: slideDown 4s, party 8s;
+}
+
+main .media-body img {
+    width: 100%;
+    height: auto;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
 h1 {
     text-shadow: 2px 2px 4px Black;
 }
-@keyframes fadeUp {
+
+@keyframes slideUp {
     0% {
         transform: translateY(900px);
         opacity: 0;
     }
+
     100% {
         transform: translateY(auto);
         opacity: 1;
     }
 }
+
 @keyframes slideIn {
     0% {
         transform: translateX(-1500px);
         opacity: 0;
     }
+
     100% {
         transform: translateX(auto);
         opacity: 1;
     }
 }
+
 @keyframes slideInRight {
     0% {
         transform: translateX(1500px);
         opacity: 0;
     }
+
     100% {
         transform: translateX(auto);
         opacity: 1;
     }
 }
-main .media-body img {
-    width: 100%;
-    height: auto;
+
+@keyframes slideDown {
+    0% {
+        transform: translateX(1000px);
+        transform: translateY(-1000px);
+    }
+
+    100% {
+        transform: translateX(auto);
+        transform: translateY(auto);
+    }
 }
-::-webkit-scrollbar { 
-    display: none; 
+
+@keyframes party {
+    0% {
+        width: 100px;
+        height: 100px;
+    }
+
+    50% {
+        width: 300px;
+        height: 300px;
+    }
+
+    100% {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .small-picture {
+        display: none;
+    }
+
+    main iframe {
+        width: 100vw;
+    }
+
+    ::-webkit-scrollbar {
+        display: inline;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .large-picture {
+        display: inline;
+        width: 200px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .large-picture {
+        display: none;
+    }
 }
