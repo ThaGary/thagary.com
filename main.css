@@ -21,8 +21,6 @@ body {
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
-    background-image: url("");
-    background-repeat: repeat;
 }
 
 body a:hover {
