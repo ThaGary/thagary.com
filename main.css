@@ -78,6 +78,7 @@ html {
 
 .list-group {
     width: 70px;
+    animation:  slideIn 2s;
 }
 
 main .ditto {
