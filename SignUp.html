@@ -1,0 +1,52 @@
+```<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Cuff Life SignUp</title>
+</head>
+<body>
+    <h1>User Signup</h1>
+    <form>
+        <label for="name-input" class="form-text">Full Name</label>
+        <input placeholder="Enter name" class="form-input" id="name-input" />
+        <label for="email-input" class="form-text">Email Address</label>
+        <input placeholder="name@example.com" id="email-input" type="email" class="form-input"/>
+        <label for="date-input" class="form-text">When is your party??!!</label>
+        <input type="date" class="form-input" id="date-input" />
+        
+        <div class="preference-select-box" id="preference-select-box">
+            <label for="preference-select-box" class="preference-text">Sexual Preferences</label>
+            <div class="preference-options-box">
+            <select class="preference-select-options"> 
+                <option>I am a...</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+            <select class="preference-select-options"> 
+                <option>Seeking a...</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+            </div>
+        </div>
+        <div class="cuff-wrapper">
+        <h3>Pick Your Cuffs</h3>
+        <img src="https://dtpmhvbsmffsz.cloudfront.net/posts/2017/07/29/597d07212599fea1b40848ca/m_597d07352599fea1b408492c.jpg" alt="pink fuzzy handcuffs" id= "pink-handcuff" />
+        <img src="https://previews.123rf.com/images/balefire9/balefire91105/balefire9110500002/9590763-a-pair-of-gold-handcuffs-against-white-background.jpg" alt="gold handcuffs" id="gold-handcuff" />
+        <img src="https://images-na.ssl-images-amazon.com/images/I/71t2DYfVK6L._SX522_.jpg" alt="rhinestone handcuffs" id="rhinestone-handcuff" />
+        </div>
+        
+        <input placeholder="Enter password" type="password" class="form-input" />
+        <input placeholder="Confirm password" type="password" class="form-input" />
+        <input placeholder="Enter friend's email" type="email" class="form-input" /> <!--Invite will be sent to friend upon form submission-->
+        <input placeholder="Give us your payment info!" type="text" class="form-input" />
+        <button class="submit-button">Submit</button>
+    </form>
+    
+</body>
+</html>
